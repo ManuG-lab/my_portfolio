@@ -26,7 +26,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="flex justify-center space-x-6 mt-10">
+    <div className="flex justify-center space-x-6 mt-10 mb-10">
       {socials.map(({ icon, url, label }, idx) => (
         <a
           key={idx}

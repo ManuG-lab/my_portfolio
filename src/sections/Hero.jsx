@@ -35,7 +35,7 @@ const Hero = () => {
       {/* Right Image Block */}
       <div className="mt-10 md:mt-0 md:w-1/2 flex justify-center">
         <img
-        src="https://images.unsplash.com/photo-1603415526960-f8f0d225ba04?auto=format&fit=crop&w=800&q=80"
+        src="https://imageio.forbes.com/specials-images/imageserve/67efed5d3b35947cbacc0464/Kendrick-Lamar-performs-onstage-/960x0.jpg?format=jpg&width=1440"
         alt="Romeo Hero"
         className="w-full max-w-md rounded-2xl shadow-lg"
         />
