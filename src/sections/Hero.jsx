@@ -18,13 +18,13 @@ const Hero = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
           <a
-            href="#projects"
+            href="/projects"
             className="px-6 py-3 rounded-md bg-purple-700 text-white hover:bg-purple-800 transition"
           >
             View Projects
           </a>
           <a
-            href="#contact"
+            href="/contact"
             className="px-6 py-3 rounded-md border border-purple-700 dark:border-purple-400 text-purple-700 dark:text-purple-300 hover:bg-purple-100 dark:hover:bg-purple-900 transition"
           >
             Contact Me
