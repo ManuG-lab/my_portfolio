@@ -1,3 +1,4 @@
+import { footer } from "framer-motion/client";
 import React from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaInstagram } from "react-icons/fa";
 
@@ -26,6 +27,7 @@ const SocialLinks = () => {
   ];
 
   return (
+    <footer className="bg-purple-700">
     <div className="flex justify-center space-x-6 mt-10 mb-10">
       {socials.map(({ icon, url, label }, idx) => (
         <a
@@ -40,6 +42,7 @@ const SocialLinks = () => {
         </a>
       ))}
     </div>
+    </footer>
   );
 };
 

@@ -32,6 +32,7 @@ function App() {
             <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
           </Routes>
           </AnimatePresence>
+          
       </main>
 
       <SocialLinks />
